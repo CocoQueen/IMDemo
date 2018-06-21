@@ -95,6 +95,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             TLSService.getInstance().setLastErrno(0);
             //跳转
 //            jumpToSuccActivity();
+            startActivity(new Intent(LoginActivity.this,ChatActivity.class));
         }
 
         @Override

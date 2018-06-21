@@ -31,6 +31,7 @@ android {
 
 
 
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:27.1.1'
@@ -39,6 +40,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile project(':presentation')
+
+//    compile 'com.tencent.ilivesdk:ilivesdk:1.7.2'
+//    compile 'com.tencent.livesdk:livesdk:1.1.2'
+
 //    implementation 'com.jakewharton:butterknife:8.8.1'
 //    implementation 'com.jakewharton:butterknife-compiler:8.8.1'
 //    compile 'com.android.support:multidex:1.0.1'

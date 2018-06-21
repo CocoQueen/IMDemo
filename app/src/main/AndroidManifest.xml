@@ -26,9 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
 
         <!-- 第二步:添加各种配置 -->
         <!-- 消息收发 service -->
@@ -67,14 +65,15 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".model.LoginActivity" >
+        <activity android:name=".model.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".model.RegistActivity"></activity>
+        <activity android:name=".model.RegistActivity" />
+        <activity android:name=".model.ChatActivity"></activity>
     </application>
 
 </manifest>
